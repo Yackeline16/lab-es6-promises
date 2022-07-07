@@ -2,7 +2,7 @@
 /****** DO NOT TOUCH vvv *****/
 
 // Callback based function
-function getInstruction(food, step, callback, errorCallback) {
+export default function getInstruction(food, step, callback, errorCallback) {
     setTimeout(() => {
       // Get the instruction string
       let instruction;

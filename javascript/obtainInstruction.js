@@ -3,7 +3,7 @@
 /****** DO NOT TOUCH vvv *****/
 
 // Promise based function
-function obtainInstruction(food, step) {
+export default function obtainInstruction(food, step) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       // Get the instruction string
